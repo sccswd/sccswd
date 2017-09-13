@@ -1,0 +1,16 @@
+CREATE TABLE `user_0` (
+	`id` BIGINT(20) UNSIGNED NOT NULL,
+	`name` VARCHAR(50) NOT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB;
+
+CREATE TABLE `user_1` (
+	`id` BIGINT(20) UNSIGNED NOT NULL,
+	`name` VARCHAR(50) NOT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB;
+
